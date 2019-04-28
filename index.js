@@ -16,4 +16,10 @@ $(() => {
 
         )
     })
+    const sqrt = $('#sqrt');
+    sqrt.change((b) => {
+        const input = sqrt.val()
+        counter.html(Math.sqrt(input))
+    })
+
 });
